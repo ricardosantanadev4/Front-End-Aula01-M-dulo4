@@ -6,11 +6,11 @@
         <link rel="stylesheet" href="5 - style - 2.css" />
     </header>
     <body>
-        <!-- container e a div principal e aonde tudo vai estar dentro dele -->
+        <!-- container e a div principal, e aonde tudo vai estar dentro dele -->
         <!-- container e a div maior -->
         <div class="container">
             <!-- a tag form reconhece tudo que tem dentro dela como um formulario -->
-            <!-- ex: um login um cadastrado esta sempre em volta da tag fomr -->
+            <!-- ex: um login um cadastrado esta sempre em volta da tag form -->
             <form>
                 <div class="base">
                     <div class="enter">
@@ -25,7 +25,7 @@
                         <!-- required="required" idica que obrigatorio preencher o input se nao o form nao envia para a API -->
                         <!-- o input pode ser fechado assim <input /> quando nao vai ter nada dentro e assim <input></input> quando vai ter algo dentro -->
                         <!-- onchange="" qualquer alteracao que for feita ele faz em tempo real -->
-                        <!-- onchange="ageChange()" quando digitar no imput de data e fora para o prximo ele faz a alteracao de data em tempo real -->
+                        <!-- onchange="ageChange()" quando digitar no imput de data e clicar no proximo input  ele faz a alteracao de data em tempo real -->
                         <input type="text" 
                         name="date" 
                         id="date" 
@@ -37,10 +37,10 @@
                     </div>
                     <div class="block">
                         <p class="title">MES</p>
-                        <!-- o type do input tem varios tipos ex: date number text e outros -->
+                        <!-- o type do input tem varios tipos ex: date, number, text e outros -->
                         <!-- o que fica dentro de id="" e o nome do atributo usado para pesquisa no JS -->
                         <!-- name="date" id="name" errado o nome do atributo nao pode ser igual o name da tag -->
-                        <!-- placeholder e a menssagem que fica dentro do imput -->
+                        <!-- placeholder e a menssagem que fica dentro do input -->
                         <!-- required="required" idica que obrigatorio preencher o input se nao o form nao envia para a API -->
                         <!-- o input pode ser fechado assim <input /> quando nao vai ter nada dentro e assim <input></input> quando vai ter algo dentro -->
                         <input type="text" 
@@ -52,13 +52,7 @@
                         maxlength="2"/>
                     </div>
                     <div class="block">
-                        <p class="title">ANO</p>
-                        <!-- o type do input tem varios tipos ex: date number text e outros -->
-                        <!-- o que fica dentro de id="" e o nome do atributo usado para pesquisa no JS -->
-                        <!-- name="date" id="name" errado o nome do atributo nao pode ser igual o name da tag -->
-                        <!-- placeholder e a menssagem que fica dentro do imput -->
-                        <!-- required="required" idica que obrigatorio preencher o input se nao o form nao envia para a API -->
-                        <!-- o input pode ser fechado assim <input /> quando nao vai ter nada dentro e assim <input></input> quando vai ter algo dentro -->
+                        <p class="title">ANO</p>                        
                         <input type="text" 
                         name="ano" 
                         id="ano" 
@@ -69,7 +63,7 @@
                     </div>
                     <div class="base">
                         <div class="enter">
-                            <!-- onclick e o atributo que vai assimnar a funcao do jS-->
+                            <!-- onclick e o atributo que vai acionar a funcao do JS -->
                             <!-- type="button" cria um botao -->
                             <input type="button" name="submit" value="submit" onclick="age()" />
                         </div>

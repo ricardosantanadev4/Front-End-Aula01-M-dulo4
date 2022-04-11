@@ -59,7 +59,7 @@ body{
     color: #1073d0;
 }
 
-/* para nao aplicar todos os imputes devemos dizer o tipo de imput que essa classe vai ser aplicada*/
+/* para nao aplicar todos os inputes devemos dizer o tipo de input que essa classe vai ser aplicada*/
 /* nesse caso vai ser o input do tipo texto*/
 input[type="text"]{
     width: 140px;
@@ -76,7 +76,7 @@ input[type="text"]{
     font-size: 17px;
 }
 
-/* focus quando focar clicar no input ele vai executar as especificacoes da classe */
+/* focus quando focar, clicar no input ele vai executar as especificacoes da classe */
 input[type="text"]:focus{
     background-color: #ffffff;
     border: 2px solid orange;
