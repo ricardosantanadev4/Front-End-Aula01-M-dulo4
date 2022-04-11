@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #27b2e3;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 10;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 644px;
+    height: auto;
+    margin: 100px auto;
+    /*background-color: #eee;*/ 
+    border-radius: 25px;
+}
+
+.base{
+    width: 100%;
+    margin: 0;
+    /* overflow quando tem scroll */
+    overflow: hidden;
+    /* display vai ficar fixo */
+    display: block;
+    /* nao pode flutuar*/
+    float: none;
+}
+
+.block{
+    width: 175px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    /* float: left; */
+}
+
+.base h4 {
+    font-size: 26px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    font-size: 34px;
+    color: navy;
+}
+
+.title{
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    line-height: 0.5;
+    letter-spacing: 2.7;
+    word-spacing: 2.7;
+    color: #1073d0;
+}
+
+/* para nao aplicar todos os imputes devemos dizer o tipo de imput que essa classe vai ser aplicada*/
+/* nesse caso vai ser o input do tipo texto*/
+input[type="text"]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    /* a altura vai diminuir ate 50px */
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    /* espaco entre o elemento e a borda no 4 lados */
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    color: #1073d0;
+    font-size: 17px;
+}
+
+/* focus quando focar clicar no input ele vai executar as especificacoes da classe */
+input[type="text"]:focus{
+    background-color: #ffffff;
+    border: 2px solid orange;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 150px;
+    margin-left: 36%;
+    margin-top: 40%;
+    /* none quer dizer que nao tem */
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #0761b6;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* hover quando passar o mouse o input muda de cor */
+input[type="button"]:hover{
+    background-color: #003670;
+}
+
+/* # siguinifica que vai pegar pelo id */
+#age{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: navy;
+}
